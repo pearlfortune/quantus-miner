@@ -40,6 +40,11 @@ Pool: https://quantus.pearlfortune.org/
 
 #### Linux (NVIDIA)
 ```sh
+## Downlaod
+wget -c https://github.com/pearlfortune/quantus-miner/releases/download/v1.3.0/qpow-v1.3.0.tar.gz
+tar vxzf qpow-v1.3.0.tar.gz
+cd qpow
+
 ## Start - CUDA 12
 ./miner-cuda12 \
 stratum \
