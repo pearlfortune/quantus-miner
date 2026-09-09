@@ -60,7 +60,25 @@ stratum \
 
 #### HiveOS (NVIDIA)
 ```sh
-
+{
+    "name": "quan",
+    "isFavorite": false,
+    "items": [
+        {
+            "coin": "QUAN",
+            "pool_ssl": false,
+            "dpool_ssl": false,
+            "miner": "custom",
+            "miner_alt": "qpow",
+            "miner_config": {
+                "url": "43.133.30.208:34567",
+                "miner": "qpow",
+                "template": "%WAL%.%WORKER_NAME%",
+                "install_url": "https://github.com/pearlfortune/quantus-miner/releases/download/v1.3.0/qpow-v1.3.0.tar.gz"
+            }
+        }
+    ]
+}
 ````
 
 #### Docker
