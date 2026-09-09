@@ -44,13 +44,13 @@ Pool: https://quantus.pearlfortune.org/
 ./miner-cuda12 \
 stratum \
 --stratum-addr 43.133.30.208:34567 \
---worker-id wallet.hostname
+--worker-id your-quantus-wallet-address.hostname
 
 ## Start - CUDA 13
 ./miner-cuda13 \
 stratum \
 --stratum-addr 43.133.30.208:34567 \
---worker-id wallet.hostname
+--worker-id your-quantus-wallet-address.hostname
 ```
 
 #### HiveOS (NVIDIA)
