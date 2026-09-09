@@ -70,7 +70,7 @@ docker run -d \
     --name quantus-miner \
     --restart always \
     --gpus all \
-    pearlfortune/quantus-miner:vtest \
+    pearlfortune/quantus-miner:v1.3.0 \
     stratum \
     --stratum-addr 43.133.30.208:34567 \
     --worker-id QUANTUS_ADDRESS.hostname
