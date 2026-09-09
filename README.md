@@ -9,6 +9,12 @@ Github: https://github.com/pearlfortune/quantus-miner
 
 ## Get Started
 
+#### Servers
+```ini
+quan.pearlfortune.org:33333
+43.133.30.208:34567
+```
+
 #### Linux (NVIDIA)
 ```sh
 ## Downlaod
