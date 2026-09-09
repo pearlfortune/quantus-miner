@@ -4,7 +4,7 @@ Website: https://quantus.pearlfortune.org
 
 Discord: https://discord.gg/bhWxDxn8cY
 
-Github: [https://github.com/pearlfortune/pearl-miner](https://github.com/pearlfortune/quantus-miner)
+Github: https://github.com/pearlfortune/quantus-miner
 
 ## 
 
