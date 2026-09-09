@@ -35,3 +35,25 @@ Pool and miner details will be announced after the mainnet launch.
 Stay tuned! :rocket:
 
 Pool: https://quantus.pearlfortune.org/
+
+## Get Started
+
+#### Linux (NVIDIA)
+```sh
+## Start - CUDA 12
+./miner-cuda12 \
+stratum \
+--stratum-addr 43.133.30.208:34567 \
+--worker-id wallet.hostname
+
+## Start - CUDA 13
+./miner-cuda13 \
+stratum \
+--stratum-addr 43.133.30.208:34567 \
+--worker-id wallet.hostname
+```
+
+#### HiveOS (NVIDIA)
+```sh
+
+````
