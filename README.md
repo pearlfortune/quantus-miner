@@ -1,6 +1,6 @@
 # quantus-miner
 
-Website: [https://pearlfortune.org/](https://quantus.pearlfortune.org/)
+Website: https://quantus.pearlfortune.org
 
 Discord: https://discord.gg/aDJwPb3rW
 
