@@ -44,16 +44,32 @@ Pool: https://quantus.pearlfortune.org/
 ./miner-cuda12 \
 stratum \
 --stratum-addr 43.133.30.208:34567 \
---worker-id your-quantus-wallet-address.hostname
+--worker-id QUANTUS_ADDRESS.hostname
 
 ## Start - CUDA 13
 ./miner-cuda13 \
 stratum \
 --stratum-addr 43.133.30.208:34567 \
---worker-id your-quantus-wallet-address.hostname
+--worker-id QUANTUS_ADDRESS.hostname
 ```
 
 #### HiveOS (NVIDIA)
 ```sh
 
 ````
+
+#### Docker
+```sh
+## Start
+docker run -d \
+    --name quantus-miner \
+    --restart always \
+    --gpus all \
+    pearlfortune/quantus-miner:vtest \
+    stratum \
+    --stratum-addr 43.133.30.208:34567 \
+    --worker-id QUANTUS_ADDRESS.hostname
+
+## Logs
+docker logs -f quantus-miner
+```
